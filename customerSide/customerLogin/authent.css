@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* window */
+section {
+
+    background-image: url("./img/L_table_food_front.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    backdrop-filter: blur(5px);
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: #ee4423;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* container; form section; middle box */
+.form_div {
+    width: 340px;
+    height: fit-content;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.747) 19%, rgba(255, 255, 255, 0.158) 100%);
+    backdrop-filter: blur(1px);
+    padding: 25px;
+}
+
+
+/* container -> form_header;  form header */
+.form_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.form_header h2 {
+    color: #1c2a3c;
+    font-variant: small-caps;
+}
+
+.form_header_button {
+    display: block;
+    align-items: baseline;
+    text-align: center;
+
+    width: fit-content;
+    height: fit-content;
+
+    background-color: #ee4423;
+    border-radius: 15px;
+}
+
+.form_header_button h5 {
+    margin: 5px;
+    margin-inline: 10px;
+
+}
+
+.form_header_button h5 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* staff-customer login difference */
+.switch_login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    border: 2px solid #1c2a3c;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.form_header_button_off {
+
+    display: block;
+    align-items: baseline;
+    text-align: center;
+
+    width: fit-content;
+    height: fit-content;
+
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.form_header_button_off h5:hover {
+    color: #5c6a7c;
+}
+
+.form_header_button_off h5 {
+    margin: 5px;
+    margin-inline: 10px;
+
+}
+
+.form_header_button_off h5 a {
+    text-decoration: none;
+    color: #1c2a3c;
+}
+
+
+/* container -> authentication_form;  actual form part */
+#authentication_form {
+    margin-block: 25px;
+    box-sizing: border-box;
+
+    display: grid;
+
+    cursor: pointer;
+}
+
+#authentication_form,
+p {
+    font-size: small;
+}
+
+.wrapper form input {
+    margin-bottom: 10px;
+    padding-inline: 10px;
+    height: 22px;
+
+    border: none;
+    border-radius: 3px;
+    background-color: #e4e4e4;
+
+    color: #1c2a3c;
+}
+
+.wrapper form input[type=submit] {
+    height: 25px;
+    background-color: #1c2a3c;
+    color: #fff;
+}
+
+.wrapper form input[type=submit]:hover {
+    background-color: #26364b;
+}
+
+.wrapper p {
+    text-align: center;
+}
+
+.wrapper p a {
+    text-decoration: none;
+    color: #ee4423;
+}
+
+.wrapper p a:hover {
+    color: #b9361b;
+}
+
+
+/* login page extra stuff */
+#form_middle_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#saveLogin {
+    display: flex;
+}
+
+#saveLogin_checkbox {
+    margin-right: 10px;
+}
