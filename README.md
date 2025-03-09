@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Staff Login:
  _______________________________________________
 |Email                     |Password            |
@@ -20,3 +21,6 @@ Admin Pass to Update or delete:
 ID:  99999
 Password: 12345
 
+=======
+# RestaurantProject
+>>>>>>> 0607dda8dfb2d8e1f6a07b0539eca5060142e540
