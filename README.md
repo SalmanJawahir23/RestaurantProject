@@ -18,10 +18,10 @@
 - **Responsive Design** – Fully optimized for desktop, tablet, and mobile devices.  
 
 ⚡ **Tech Stack:**  
-- **Frontend**: React.js / Angular  
-- **Backend**: Node.js / Django / Spring Boot  
-- **Database**: MySQL / PostgreSQL  
-- **Security**: OAuth 2.0, JWT Authentication  
+- **Frontend**: HTML / CSS / JavaScript  
+- **Backend**: PHP  
+- **Database**: MySQL / ApacheDB  
+- **UI Design**: Figma 
 - **Hosting**: AWS / Azure / Google Cloud
 
 ### **Screenshots**
